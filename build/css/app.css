@@ -316,15 +316,23 @@ button {
 .sobreMi h2 {
   padding: 3rem 0;
 }
+
+.informacion {
+  padding: 2rem;
+}
+
 .sobreMi .informacion {
   min-width: 25rem;
 }
 .sobreMi .informacion p {
+  text-align: center;
   line-height: 3rem;
   margin-top: 1rem;
 }
+
 @media (min-width: 1200px) {
   .sobreMi {
+    text-align: start;
     display: grid;
     gap: 0;
     grid-template-columns: repeat(2, 1fr);
